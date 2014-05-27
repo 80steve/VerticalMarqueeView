@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerticalMarqueeView">
+        <attr name="vmvTextSize" format="dimension" />
+        <attr name="vmvTextColor" format="color" />
+        <attr name="vmvDelay" format="integer" />
+        <attr name="vmvMarqueeOnClick" format="string" />
+        <attr name="android:layout_height"/>
+    </declare-styleable>
+</resources>

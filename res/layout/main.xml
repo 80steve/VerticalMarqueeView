@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <com.eightysteve.VerticalMarqueeView.VerticalMarqueeView
+            xmlns:vmv="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/marquee"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="@android:color/white"
+            vmv:vmvTextSize="25sp"
+            vmv:vmvDelay="1000">
+    </com.eightysteve.VerticalMarqueeView.VerticalMarqueeView>
+</LinearLayout>
+
