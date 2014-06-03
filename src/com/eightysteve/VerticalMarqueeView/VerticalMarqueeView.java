@@ -109,7 +109,7 @@ public class VerticalMarqueeView extends ScrollView {
         for (int i = 0; i < mMarqueeText.length; i++) {
             String text = mMarqueeText[i];
             TextView tv = new TextView(mContext);
-            tv.setMaxLines(1);
+            tv.setSingleLine(true);
             tv.setText(text);
             tv.setGravity(Gravity.CENTER_VERTICAL);
             tv.setEllipsize(TextUtils.TruncateAt.END);
